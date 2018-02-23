@@ -1,8 +1,9 @@
-# elasticsearch_stack
+# elastic_stack
 
 Install jdk8 and jre8
 ---------------------
 sudo su -
+
 apt-get update && apt-get upgrade
 
 sudo apt-get install default-jre
@@ -20,8 +21,9 @@ rm postman.tar.gz
 
 sudo ln -s /opt/Postman/Postman /usr/bin/postman
 
-Install & Chnage default editor to vim
+Install & Change default editor to vim
 --------------------------------------
+
 sudo apt install vim
 
 select-editor
@@ -36,3 +38,4 @@ sudo apt install curl
 Install the following Elastic stack technologies & Configure them
 -----------------------------------------------------------------
 1. Elasticsearch
+   
